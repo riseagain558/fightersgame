@@ -1,0 +1,18 @@
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #fbd8dd;
+  font-size: 18px;
+}
+
+.content {
+  text-align: center;
+  padding: 30px;
+  font-size: 16px;
+}
+
+input {
+  font-size: 16px;
+  padding: 8px;
+  margin: 10px;
+}

@@ -1,0 +1,11 @@
+<h3>Welcome to the game!</h3>
+
+<% if current_fighter %>
+  <p>
+    You logged in as <strong><%= current_fighter.name %></strong>
+    <%= link_to 'Log Out', logout_path %>
+  </p>
+<% else %>
+  <p><%= button_to 'Sign up as new Fighter', signup_path, method: :get %></p>
+  <p><%= button_to 'Log in as existing Fighter', login_path, method: :get %></p>
+<% end %>
